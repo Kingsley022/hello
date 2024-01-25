@@ -1,0 +1,17 @@
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;   
+}
+
+.ul > li{
+    background: #c5c2c2;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+li.active{
+    background: blue;
+    color: #fff;
+}
