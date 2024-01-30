@@ -1,0 +1,13 @@
+.Navbar-container{
+    background: #bfbdbd;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.list-item{
+    font-size: 21px;
+    text-decoration: none;
+    color: rgb(60, 58, 57);
+}
