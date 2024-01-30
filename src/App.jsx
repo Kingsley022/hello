@@ -1,3 +1,5 @@
+import Assignment from "./components/Assignment";
+import Form2 from "./components/Form2";
 import List from "./components/List"
 import ListGroup from "./components/ListGroup"
 import Management from "./components/Management"
@@ -9,10 +11,12 @@ function App(){
 
     return(
         <>
-            <ListGroup/>
+            {/* <ListGroup/>
             <Management/>
             <List title="programming Languages" list={languages}/>
-            <List title="Footballers" list={footballers} />
+            <List title="Footballers" list={footballers} /> */}
+
+            <Assignment/>
 
         </>
     )
