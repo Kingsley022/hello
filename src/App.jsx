@@ -7,6 +7,7 @@ import StudentDetail from "./components/StudentDetail";
 import NotFound from "./components/NotFound";
 import PrivateRoute from "./components/PrivateRoute";
 import Admin from "./components/Admin";
+import Login from "./components/Login";
 
 function App(){
 
@@ -18,6 +19,7 @@ function App(){
                 <Route path="/" element={<ListGroup/>}/>
                 <Route path="/management" element={<Management/>}/>
                 <Route path="/students/:id" element={<StudentDetail/>}/>
+                <Route path="/auth" element={<Login/>}/>
 
                 <Route path="/admin" element={<PrivateRoute/>}>
                     <Route index element={<Admin/>}/>

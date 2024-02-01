@@ -1,0 +1,32 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form{
+    background: #c4c1c1;
+    height: 55vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 12px;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+    padding: .5rem;
+}
